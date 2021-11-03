@@ -1,0 +1,281 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: main.sapr
+msgid "April"
+msgstr ""
+
+#: main.saug
+msgid "August"
+msgstr ""
+
+#: main.scmems
+msgid "In order to download data one must have a CMEMS account. If you do not have it, please, create one on the website http://marine.copernicus.eu."
+msgstr ""
+
+#: main.sdatecannotexceed
+msgid "Date cannot exceed "
+msgstr ""
+
+#: main.sdatecannotprecede
+msgid "Date cannot preceed "
+msgstr ""
+
+#: main.sdec
+msgid "December"
+msgstr ""
+
+#: main.sfeb
+msgid "February"
+msgstr ""
+
+#: main.sjan
+msgid "January"
+msgstr ""
+
+#: main.sjul
+msgid "July"
+msgstr ""
+
+#: main.sjun
+msgid "Jun"
+msgstr ""
+
+#: main.smar
+msgid "March"
+msgstr ""
+
+#: main.smay
+msgid "May"
+msgstr ""
+
+#: main.snopython
+msgid "Python is not found"
+msgstr ""
+
+#: main.snov
+msgid "November"
+msgstr ""
+
+#: main.soct
+msgid "October"
+msgstr ""
+
+#: main.sparameter1
+msgid "Sea surface height"
+msgstr ""
+
+#: main.sparameter10
+msgid "Eastward velocity"
+msgstr ""
+
+#: main.sparameter11
+msgid "Northward velocity"
+msgstr ""
+
+#: main.sparameter2
+msgid "Density ocean mixed layer thickness"
+msgstr ""
+
+#: main.sparameter3
+msgid "Salinity"
+msgstr ""
+
+#: main.sparameter4
+msgid "Sea ice eastward velocity"
+msgstr ""
+
+#: main.sparameter5
+msgid "Sea ice northward velocity"
+msgstr ""
+
+#: main.sparameter6
+msgid "Sea ice thickness"
+msgstr ""
+
+#: main.sparameter7
+msgid "Potential temperature"
+msgstr ""
+
+#: main.sparameter8
+msgid "Ice concentration"
+msgstr ""
+
+#: main.sparameter9
+msgid "Sea floor potential temperature"
+msgstr ""
+
+#: main.sproductdaily
+msgid "Daily"
+msgstr ""
+
+#: main.sproductmonthly
+msgid "Monthly"
+msgstr ""
+
+#: main.spyth
+msgid "Data downloading is done by motuclient - a specail package designed to work with CMEMS data. Motuclient integrates into Python which can be downloaded from www.python.org"
+msgstr ""
+
+#: main.sselectlevels
+msgid "Please, select levels"
+msgstr ""
+
+#: main.sselectparameters
+msgid "Please, select parameters"
+msgstr ""
+
+#: main.sselectsteps
+msgid "Please, select step"
+msgstr ""
+
+#: main.sselecttime
+msgid "Please, select time"
+msgstr ""
+
+#: main.ssep
+msgid "September"
+msgstr ""
+
+#: tfrmmain.btncancel.caption
+msgid "Cancel"
+msgstr ""
+
+#: tfrmmain.btncancel.hint
+msgid "Cancel downloading"
+msgstr ""
+
+#: tfrmmain.btndownloadmercator.caption
+msgid "Download"
+msgstr ""
+
+#: tfrmmain.btndownloadmercator.hint
+msgid "Download data"
+msgstr ""
+
+#: tfrmmain.btndownloadmissing.caption
+msgid "dlmiss"
+msgstr ""
+
+#: tfrmmain.btninstallmotu.caption
+msgid "Install motuclient"
+msgstr ""
+
+#: tfrmmain.btninstallmotu.hint
+msgctxt "tfrmmain.btninstallmotu.hint"
+msgid "Install required packages"
+msgstr ""
+
+#: tfrmmain.btnopenfoldermercator.hint
+msgid "Open data folder"
+msgstr ""
+
+#: tfrmmain.btnpythonpath.caption
+msgid "..."
+msgstr ""
+
+#: tfrmmain.btnsavepass.caption
+msgid "Save"
+msgstr ""
+
+#: tfrmmain.btnupgrademotu.caption
+msgid "Upgrade motuclient"
+msgstr ""
+
+#: tfrmmain.btnupgrademotu.hint
+msgctxt "tfrmmain.btnupgrademotu.hint"
+msgid "Install required packages"
+msgstr ""
+
+#: tfrmmain.caption
+msgid "MERCATOR data downloader"
+msgstr ""
+
+#: tfrmmain.chgmonth.caption
+msgid "Distinct months"
+msgstr ""
+
+#: tfrmmain.chgparameters.caption
+msgid "Parameters"
+msgstr ""
+
+#: tfrmmain.chkscheduler.caption
+msgid "Enable"
+msgstr ""
+
+#: tfrmmain.dtp1.textfornulldate
+msgctxt "tfrmmain.dtp1.textfornulldate"
+msgid "NULL"
+msgstr ""
+
+#: tfrmmain.dtp2.textfornulldate
+msgctxt "tfrmmain.dtp2.textfornulldate"
+msgid "NULL"
+msgstr ""
+
+#: tfrmmain.dtpfinish.textfornulldate
+msgctxt "tfrmmain.dtpfinish.textfornulldate"
+msgid "NULL"
+msgstr ""
+
+#: tfrmmain.dtpstart.textfornulldate
+msgctxt "tfrmmain.dtpstart.textfornulldate"
+msgid "NULL"
+msgstr ""
+
+#: tfrmmain.groupbox1.caption
+msgid "Levels"
+msgstr ""
+
+#: tfrmmain.groupbox14.caption
+msgid "Python and motuclient"
+msgstr ""
+
+#: tfrmmain.groupbox2.caption
+msgid "Dates"
+msgstr ""
+
+#: tfrmmain.groupbox3.caption
+msgid "Scheduler"
+msgstr ""
+
+#: tfrmmain.groupbox4.caption
+msgid "Region"
+msgstr ""
+
+#: tfrmmain.groupbox5.caption
+msgid "Dataset"
+msgstr ""
+
+#: tfrmmain.groupbox6.caption
+msgid "CMEMS credentials"
+msgstr ""
+
+#: tfrmmain.label1.caption
+msgid "Python"
+msgstr ""
+
+#: tfrmmain.lpass.caption
+msgid "Password"
+msgstr ""
+
+#: tfrmmain.lusr.caption
+msgid "User"
+msgstr ""
+
+#: tfrmmain.rglanguage.caption
+msgid "Language"
+msgstr ""
+
+#: tfrmmain.rgproduct.caption
+msgid "Product"
+msgstr ""
+
+#: tfrmmain.tabsheet1.caption
+msgid "Data"
+msgstr ""
+
+#: tfrmmain.tabsheet2.caption
+msgid "Settings"
+msgstr ""
+

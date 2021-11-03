@@ -1,0 +1,290 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"X-Generator: Poedit 2.3\n"
+
+#: main.sapr
+msgid "April"
+msgstr "Апрель"
+
+#: main.saug
+msgid "August"
+msgstr "Август"
+
+#: main.scmems
+msgid "In order to download data one must have a CMEMS account. If you do not have it, please, create one on the website http://marine.copernicus.eu."
+msgstr "Чтобы скачать данные необходимо иметь учетную запись CMEMS. Если у Вас её нет, создайте её на сайте http://marine.copernicus.eu."
+
+#: main.sdatecannotexceed
+msgid "Date cannot exceed "
+msgstr "Дата не может быть больше "
+
+#: main.sdatecannotprecede
+msgid "Date cannot preceed "
+msgstr "Дата не может быть меньше"
+
+#: main.sdec
+msgid "December"
+msgstr "Декабрь"
+
+#: main.sfeb
+msgid "February"
+msgstr "Февраль"
+
+#: main.sjan
+msgid "January"
+msgstr "Январь"
+
+#: main.sjul
+msgid "July"
+msgstr "Июль"
+
+#: main.sjun
+msgid "Jun"
+msgstr "Июнь"
+
+#: main.smar
+msgid "March"
+msgstr "Март"
+
+#: main.smay
+msgid "May"
+msgstr "Май"
+
+#: main.snopython
+msgid "Python is not found"
+msgstr "Интерпретатор Python не найден"
+
+#: main.snov
+msgid "November"
+msgstr "Ноябрь"
+
+#: main.soct
+msgid "October"
+msgstr "Октябрь"
+
+#: main.sparameter1
+msgid "Sea surface height"
+msgstr "Высота поверхности моря"
+
+#: main.sparameter10
+msgid "Eastward velocity"
+msgstr "u-компонента скорости течения"
+
+#: main.sparameter11
+msgid "Northward velocity"
+msgstr "v-компонента скорости течения"
+
+#: main.sparameter2
+msgid "Density ocean mixed layer thickness"
+msgstr "Толщина перемешанного слоя"
+
+#: main.sparameter3
+msgid "Salinity"
+msgstr "Соленость"
+
+#: main.sparameter4
+msgid "Sea ice eastward velocity"
+msgstr "u-компонента скорости дрейфа льда"
+
+#: main.sparameter5
+msgid "Sea ice northward velocity"
+msgstr "v-компонента скорости дрейфа льда"
+
+#: main.sparameter6
+msgid "Sea ice thickness"
+msgstr "Толщина льда"
+
+#: main.sparameter7
+msgid "Potential temperature"
+msgstr "Потенциальная температура"
+
+#: main.sparameter8
+msgid "Ice concentration"
+msgstr "Концентрация льда"
+
+#: main.sparameter9
+msgid "Sea floor potential temperature"
+msgstr "Потенциальная температура на дне"
+
+#: main.sproductdaily
+msgid "Daily"
+msgstr "Суточные"
+
+#: main.sproductmonthly
+msgid "Monthly"
+msgstr "Месячные"
+
+#: main.spyth
+msgid "Data downloading is done by motuclient - a specail package designed to work with CMEMS data. Motuclient integrates into Python which can be downloaded from www.python.org"
+msgstr "Скачивание данных производится с помощью пакета moteclient, разработанного специально для работы с данными CMEMS. Motuclient интегрируется в Python (интерпретатор Python может быть загружен с сайта www.python.org)"
+
+#: main.sselectlevels
+msgid "Please, select levels"
+msgstr "Пожалуйста, выберите горизонт"
+
+#: main.sselectparameters
+msgid "Please, select parameters"
+msgstr "Пожалуйста, выберите параметры"
+
+#: main.sselectsteps
+msgid "Please, select step"
+msgstr "Пожалуйста, выберите шаг"
+
+#: main.sselecttime
+msgid "Please, select time"
+msgstr "Пожалуйста, выберите время"
+
+#: main.ssep
+msgid "September"
+msgstr "Сентябрь"
+
+#: tfrmmain.btncancel.caption
+msgid "Cancel"
+msgstr "Отмена"
+
+#: tfrmmain.btncancel.hint
+msgid "Cancel downloading"
+msgstr "Отменить загрузку"
+
+#: tfrmmain.btndownloadmercator.caption
+msgid "Download"
+msgstr "Загрузить"
+
+#: tfrmmain.btndownloadmercator.hint
+msgid "Download data"
+msgstr "Загрузить данные"
+
+#: tfrmmain.btndownloadmissing.caption
+msgid "dlmiss"
+msgstr ""
+
+#: tfrmmain.btninstallmotu.caption
+msgid "Install motuclient"
+msgstr "Установить motuclient"
+
+#: tfrmmain.btninstallmotu.hint
+msgctxt "tfrmmain.btninstallmotu.hint"
+msgid "Install required packages"
+msgstr "Установить требуемые пакеты"
+
+#: tfrmmain.btnopenfoldermercator.hint
+msgid "Open data folder"
+msgstr "Открыть папку"
+
+#: tfrmmain.btnpythonpath.caption
+msgid "..."
+msgstr "..."
+
+#: tfrmmain.btnsavepass.caption
+msgid "Save"
+msgstr "Сохранить"
+
+#: tfrmmain.btnupgrademotu.caption
+msgid "Upgrade motuclient"
+msgstr "Обновить motuclient"
+
+#: tfrmmain.btnupgrademotu.hint
+msgctxt "tfrmmain.btnupgrademotu.hint"
+msgid "Install required packages"
+msgstr "Установить требуемые пакеты"
+
+#: tfrmmain.caption
+msgid "MERCATOR data downloader"
+msgstr "Загрузить данные MERCATOR"
+
+#: tfrmmain.chgmonth.caption
+msgid "Distinct months"
+msgstr "Месяцы:"
+
+#: tfrmmain.chgparameters.caption
+msgid "Parameters"
+msgstr "Параметры"
+
+#: tfrmmain.chkscheduler.caption
+msgid "Enable"
+msgstr "Вкл."
+
+#: tfrmmain.dtp1.textfornulldate
+msgctxt "tfrmmain.dtp1.textfornulldate"
+msgid "NULL"
+msgstr ""
+
+#: tfrmmain.dtp2.textfornulldate
+msgctxt "tfrmmain.dtp2.textfornulldate"
+msgid "NULL"
+msgstr ""
+
+#: tfrmmain.dtpfinish.textfornulldate
+msgctxt "tfrmmain.dtpfinish.textfornulldate"
+msgid "NULL"
+msgstr ""
+
+#: tfrmmain.dtpstart.textfornulldate
+msgctxt "tfrmmain.dtpstart.textfornulldate"
+msgid "NULL"
+msgstr ""
+
+#: tfrmmain.groupbox1.caption
+msgid "Levels"
+msgstr "Уровни"
+
+#: tfrmmain.groupbox14.caption
+msgid "Python and motuclient"
+msgstr "Python и motuclient"
+
+#: tfrmmain.groupbox2.caption
+msgid "Dates"
+msgstr "Даты"
+
+#: tfrmmain.groupbox3.caption
+msgid "Scheduler"
+msgstr "Планировщик"
+
+#: tfrmmain.groupbox4.caption
+msgid "Region"
+msgstr "Регион"
+
+#: tfrmmain.groupbox5.caption
+msgid "Dataset"
+msgstr "Набор данных"
+
+#: tfrmmain.groupbox6.caption
+msgid "CMEMS credentials"
+msgstr "Учетная запись CMEMS"
+
+#: tfrmmain.label1.caption
+msgid "Python"
+msgstr ""
+
+#: tfrmmain.lpass.caption
+msgid "Password"
+msgstr "Пароль"
+
+#: tfrmmain.lusr.caption
+msgid "User"
+msgstr "Пользователь"
+
+#: tfrmmain.rglanguage.caption
+msgid "Language"
+msgstr "Язык"
+
+#: tfrmmain.rgproduct.caption
+msgid "Product"
+msgstr "Продукт"
+
+#: tfrmmain.tabsheet1.caption
+msgid "Data"
+msgstr "Данные"
+
+#: tfrmmain.tabsheet2.caption
+msgid "Settings"
+msgstr "Настройки"
