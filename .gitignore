@@ -1,4 +1,3 @@
-backup/
 data/
-lib/
-.dl_mercator
+src/lib/
+src/backup/

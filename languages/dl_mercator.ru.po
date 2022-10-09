@@ -1,15 +1,19 @@
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"MIME-Version: 1.0\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: ru\n"
-"X-Generator: Poedit 2.3\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#: main.salldata
+msgid "All data"
+msgstr "Всем данным"
 
 #: main.sapr
 msgid "April"
@@ -30,6 +34,10 @@ msgstr "Дата не может быть больше "
 #: main.sdatecannotprecede
 msgid "Date cannot preceed "
 msgstr "Дата не может быть меньше"
+
+#: main.sday
+msgid "Day"
+msgstr "Дню"
 
 #: main.sdec
 msgid "December"
@@ -59,9 +67,9 @@ msgstr "Март"
 msgid "May"
 msgstr "Май"
 
-#: main.snopython
-msgid "Python is not found"
-msgstr "Интерпретатор Python не найден"
+#: main.smonth
+msgid "Month"
+msgstr "Месяцу"
 
 #: main.snov
 msgid "November"
@@ -123,10 +131,6 @@ msgstr "Суточные"
 msgid "Monthly"
 msgstr "Месячные"
 
-#: main.spyth
-msgid "Data downloading is done by motuclient - a specail package designed to work with CMEMS data. Motuclient integrates into Python which can be downloaded from www.python.org"
-msgstr "Скачивание данных производится с помощью пакета moteclient, разработанного специально для работы с данными CMEMS. Motuclient интегрируется в Python (интерпретатор Python может быть загружен с сайта www.python.org)"
-
 #: main.sselectlevels
 msgid "Please, select levels"
 msgstr "Пожалуйста, выберите горизонт"
@@ -146,6 +150,14 @@ msgstr "Пожалуйста, выберите время"
 #: main.ssep
 msgid "September"
 msgstr "Сентябрь"
+
+#: main.supdatepass
+msgid "Update your Mercator username and password"
+msgstr ""
+
+#: main.syear
+msgid "Year"
+msgstr "Году"
 
 #: tfrmmain.btncancel.caption
 msgid "Cancel"
@@ -167,35 +179,17 @@ msgstr "Загрузить данные"
 msgid "dlmiss"
 msgstr ""
 
-#: tfrmmain.btninstallmotu.caption
-msgid "Install motuclient"
-msgstr "Установить motuclient"
-
-#: tfrmmain.btninstallmotu.hint
-msgctxt "tfrmmain.btninstallmotu.hint"
-msgid "Install required packages"
-msgstr "Установить требуемые пакеты"
+#: tfrmmain.btndownloadmissing1.caption
+msgid "List of sections"
+msgstr ""
 
 #: tfrmmain.btnopenfoldermercator.hint
 msgid "Open data folder"
 msgstr "Открыть папку"
 
-#: tfrmmain.btnpythonpath.caption
-msgid "..."
-msgstr "..."
-
 #: tfrmmain.btnsavepass.caption
 msgid "Save"
 msgstr "Сохранить"
-
-#: tfrmmain.btnupgrademotu.caption
-msgid "Upgrade motuclient"
-msgstr "Обновить motuclient"
-
-#: tfrmmain.btnupgrademotu.hint
-msgctxt "tfrmmain.btnupgrademotu.hint"
-msgid "Install required packages"
-msgstr "Установить требуемые пакеты"
 
 #: tfrmmain.caption
 msgid "MERCATOR data downloader"
@@ -212,6 +206,10 @@ msgstr "Параметры"
 #: tfrmmain.chkscheduler.caption
 msgid "Enable"
 msgstr "Вкл."
+
+#: tfrmmain.chkshowscript.caption
+msgid "Show script"
+msgstr "Показать скрипт"
 
 #: tfrmmain.dtp1.textfornulldate
 msgctxt "tfrmmain.dtp1.textfornulldate"
@@ -237,10 +235,6 @@ msgstr ""
 msgid "Levels"
 msgstr "Уровни"
 
-#: tfrmmain.groupbox14.caption
-msgid "Python and motuclient"
-msgstr "Python и motuclient"
-
 #: tfrmmain.groupbox2.caption
 msgid "Dates"
 msgstr "Даты"
@@ -261,10 +255,6 @@ msgstr "Набор данных"
 msgid "CMEMS credentials"
 msgstr "Учетная запись CMEMS"
 
-#: tfrmmain.label1.caption
-msgid "Python"
-msgstr ""
-
 #: tfrmmain.lpass.caption
 msgid "Password"
 msgstr "Пароль"
@@ -272,6 +262,10 @@ msgstr "Пароль"
 #: tfrmmain.lusr.caption
 msgid "User"
 msgstr "Пользователь"
+
+#: tfrmmain.rggroupby.caption
+msgid "Group by"
+msgstr "Группировать по"
 
 #: tfrmmain.rglanguage.caption
 msgid "Language"
@@ -288,3 +282,4 @@ msgstr "Данные"
 #: tfrmmain.tabsheet2.caption
 msgid "Settings"
 msgstr "Настройки"
+

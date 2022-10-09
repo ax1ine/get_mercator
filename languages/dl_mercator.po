@@ -1,6 +1,10 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=UTF-8"
 
+#: main.salldata
+msgid "All data"
+msgstr ""
+
 #: main.sapr
 msgid "April"
 msgstr ""
@@ -19,6 +23,10 @@ msgstr ""
 
 #: main.sdatecannotprecede
 msgid "Date cannot preceed "
+msgstr ""
+
+#: main.sday
+msgid "Day"
 msgstr ""
 
 #: main.sdec
@@ -49,8 +57,8 @@ msgstr ""
 msgid "May"
 msgstr ""
 
-#: main.snopython
-msgid "Python is not found"
+#: main.smonth
+msgid "Month"
 msgstr ""
 
 #: main.snov
@@ -113,10 +121,6 @@ msgstr ""
 msgid "Monthly"
 msgstr ""
 
-#: main.spyth
-msgid "Data downloading is done by motuclient - a specail package designed to work with CMEMS data. Motuclient integrates into Python which can be downloaded from www.python.org"
-msgstr ""
-
 #: main.sselectlevels
 msgid "Please, select levels"
 msgstr ""
@@ -135,6 +139,14 @@ msgstr ""
 
 #: main.ssep
 msgid "September"
+msgstr ""
+
+#: main.supdatepass
+msgid "Update your Mercator username and password"
+msgstr ""
+
+#: main.syear
+msgid "Year"
 msgstr ""
 
 #: tfrmmain.btncancel.caption
@@ -157,34 +169,16 @@ msgstr ""
 msgid "dlmiss"
 msgstr ""
 
-#: tfrmmain.btninstallmotu.caption
-msgid "Install motuclient"
-msgstr ""
-
-#: tfrmmain.btninstallmotu.hint
-msgctxt "tfrmmain.btninstallmotu.hint"
-msgid "Install required packages"
+#: tfrmmain.btndownloadmissing1.caption
+msgid "List of sections"
 msgstr ""
 
 #: tfrmmain.btnopenfoldermercator.hint
 msgid "Open data folder"
 msgstr ""
 
-#: tfrmmain.btnpythonpath.caption
-msgid "..."
-msgstr ""
-
 #: tfrmmain.btnsavepass.caption
 msgid "Save"
-msgstr ""
-
-#: tfrmmain.btnupgrademotu.caption
-msgid "Upgrade motuclient"
-msgstr ""
-
-#: tfrmmain.btnupgrademotu.hint
-msgctxt "tfrmmain.btnupgrademotu.hint"
-msgid "Install required packages"
 msgstr ""
 
 #: tfrmmain.caption
@@ -201,6 +195,10 @@ msgstr ""
 
 #: tfrmmain.chkscheduler.caption
 msgid "Enable"
+msgstr ""
+
+#: tfrmmain.chkshowscript.caption
+msgid "Show script"
 msgstr ""
 
 #: tfrmmain.dtp1.textfornulldate
@@ -227,10 +225,6 @@ msgstr ""
 msgid "Levels"
 msgstr ""
 
-#: tfrmmain.groupbox14.caption
-msgid "Python and motuclient"
-msgstr ""
-
 #: tfrmmain.groupbox2.caption
 msgid "Dates"
 msgstr ""
@@ -251,16 +245,16 @@ msgstr ""
 msgid "CMEMS credentials"
 msgstr ""
 
-#: tfrmmain.label1.caption
-msgid "Python"
-msgstr ""
-
 #: tfrmmain.lpass.caption
 msgid "Password"
 msgstr ""
 
 #: tfrmmain.lusr.caption
 msgid "User"
+msgstr ""
+
+#: tfrmmain.rggroupby.caption
+msgid "Group by"
 msgstr ""
 
 #: tfrmmain.rglanguage.caption
