@@ -1,7 +1,7 @@
 object frmmain: Tfrmmain
-  Left = 270
+  Left = 272
   Height = 875
-  Top = 33
+  Top = 35
   Width = 1350
   Caption = 'MERCATOR data downloader'
   ClientHeight = 875
@@ -311,6 +311,7 @@ object frmmain: Tfrmmain
         Top = 784
         Width = 85
         Caption = 'Cancel'
+        Enabled = False
         OnClick = btnCancelClick
         ParentFont = False
         TabOrder = 7
@@ -569,5 +570,10 @@ object frmmain: Tfrmmain
   object OD: TOpenDialog
     left = 864
     top = 84
+  end
+  object Timer2: TTimer
+    OnTimer = Timer2Timer
+    left = 792
+    top = 168
   end
 end

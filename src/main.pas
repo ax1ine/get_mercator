@@ -55,6 +55,7 @@ type
     TabSheet1: TTabSheet;
     TabSheet2: TTabSheet;
     Timer1: TTimer;
+    Timer2: TTimer;
 
     procedure btnCancelClick(Sender: TObject);
     procedure btnDownloadMissingClick(Sender: TObject);
@@ -67,6 +68,7 @@ type
     procedure rgLanguageClick(Sender: TObject);
     procedure rgProductClick(Sender: TObject);
     procedure Timer1Timer(Sender: TObject);
+    procedure Timer2Timer(Sender: TObject);
 
 
   private
@@ -119,6 +121,7 @@ var
   GlobalPath, GlobalDataPath, GlobalSupportPath, IniFileName: string;
   motu, service, product: string;
   cancel_dl:boolean=false;
+  P:TProcess;
 
 
 implementation
@@ -344,6 +347,8 @@ begin
 
   if (usr='') or (pwd='') then
    if MessageDlg(SUpdatePass, mtWarning, [mbOk], 0)=mrOk then exit;
+
+   btnCancel.Enabled:=true;
 
    cmd0:='-m motuclient '+
         '--user '+usr+' '+
@@ -618,6 +623,8 @@ begin
 
   end; // file
  end; // OD
+
+ btnCancel.Enabled:=false;
 end;
 
 
@@ -645,6 +652,9 @@ begin
  cancel_dl:=true;
  chkScheduler.Checked:=false;
  Timer1.Enabled:=false;
+
+ P.Terminate(0);
+ btnCancel.Enabled:=false;
 end;
 
 
@@ -667,6 +677,11 @@ begin
      btnDownloadMercator.OnClick(self);
    end;
  end;
+end;
+
+procedure Tfrmmain.Timer2Timer(Sender: TObject);
+begin
+  Application.ProcessMessages;
 end;
 
 
@@ -701,7 +716,6 @@ end;
 (* Launching scripts *)
 procedure Tfrmmain.RunScript(cmd:string);
 Var
-  P:TProcess;
   ExeName, buf, s: string;
   i, j: integer;
   dat: text;
