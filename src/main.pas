@@ -218,7 +218,7 @@ begin
         1: product:='cmems_mod_glo_phy_my_0.083_P1M-m';
       end;
     dtp1.MinDate:=EncodeDate(1993, 01, 01);
-    dtp2.MaxDate:=EncodeDate(2019, 12, 31);
+   // dtp2.MaxDate:=EncodeDate(2019, 12, 31);
    end;
 
 
@@ -231,7 +231,7 @@ begin
         1: product:=product+'-monthly';
       end;
     dtp1.MinDate:=EncodeDate(1993, 01, 01);
-    dtp2.MaxDate:=EncodeDate(2019, 12, 31);
+   // dtp2.MaxDate:=EncodeDate(2019, 12, 31);
    end;
 
  //  http://nrtcmems.mercator-ocean.fr/motu-web/Motu -s GLOBAL_ANALYSIS_FORECAST_PHY_001_024-TDS -d global-analysis-forecast-phy-001-024

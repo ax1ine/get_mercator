@@ -4,8 +4,8 @@ object frmmain: Tfrmmain
   Top = 35
   Width = 1350
   Caption = 'MERCATOR data downloader'
-  ClientHeight = 875
-  ClientWidth = 1350
+  ClientHeight = 0
+  ClientWidth = 0
   Constraints.MinHeight = 875
   Constraints.MinWidth = 1350
   DesignTimePPI = 144
@@ -121,7 +121,7 @@ object frmmain: Tfrmmain
           Top = 0
           Width = 122
           CenturyFrom = 1941
-          MaxDate = 2958465
+          MaxDate = 47848
           MinDate = 39077
           ParentFont = False
           TabOrder = 1
